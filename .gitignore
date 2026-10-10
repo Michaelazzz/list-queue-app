@@ -1,0 +1,45 @@
+# Node / frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.vite/
+frontend/.cache/
+frontend/coverage/
+frontend/*.log
+
+# Python / backend
+backend/.venv/
+backend/venv/
+backend/__pycache__/
+backend/**/*.py[cod]
+backend/.pytest_cache/
+backend/.mypy_cache/
+backend/.coverage
+backend/htmlcov/
+backend/.env
+backend/.env.*
+!backend/.env.example
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Docker / local runtime data
+*.log
+logs/
+.tmp/
+.temp/
+
+# Test coverage / build output
+coverage/
+*.coverage
+
+# Optional: keep env files out
+.env
+.env.*
+!.env.example
